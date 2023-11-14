@@ -2,6 +2,9 @@
 
 This is a list of (non-comprehensive) LLM system papers maintained by [ALCHEM Lab](https://alchem.cs.purdue.edu/index.html). Welcome to create a pull requst or an issue if we have missed any interesting papers!
 
+This folk adds the following topics:
+- [x] Sparse LLM algorithms, kernels, and systems
+
 ## Algorithm-System Co-Design
 
 - Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity (JMLR'21) [link to paper](https://www.jmlr.org/papers/volume23/21-0998/21-0998.pdf)
@@ -133,12 +136,32 @@ This is a list of (non-comprehensive) LLM system papers maintained by [ALCHEM La
 - HyperAttention: Long-context Attention in Near-Linear Time (arXiv'23)[link to paper](https://arxiv.org/abs/2310.05869)
 
 
+## Sparse LLM
+### Pruning algorithms
+- SparseGPT: Massive Language Models Can be Accurately Pruned in One-Shot (ICML'23) [link to paper](https://proceedings.mlr.press/v202/frantar23a.html)
+- The Optimal BERT Surgeon: Scalable and Accurate Second-Order Pruning for Large Language Models (EMNLP'22) [link to paper](https://aclanthology.org/2022.emnlp-main.279/)
+- Accelerated Sparse Neural Training: A Provable and Efficient Method to Find N: M Transposable Masks (NeurIPS' 2021) [https://proceedings.neurips.cc/paper/2021/hash/b0490b85e92b64dbb5db76bf8fca6a82-Abstract.html]
+
+### Sparse kernels
+- Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity (arXiv'23) [link to paper](https://arxiv.org/abs/2309.10285)
+- VENOM: A Vectorized N: M Format for Unleashing the Power of Sparse Tensor Cores (SC'23) [link to paper](https://arxiv.org/abs/2310.02065)
+- An Efficient Sparse Inference Software Accelerator for Transformer-based Language Models on CPUs. (arXiv'23) [link to paper](https://arxiv.org/abs/2306.16601)
+- Probing the Efficacy of Hardware-Aware Weight Pruning to Optimize the SpMM Routine on Ampere GPUs (PACT'22) [link to paper](https://dl.acm.org/doi/10.1145/3559009.3569691)
+- Efficient Quantized Sparse Matrix Operations on Tensor Cores (SC'22) [link to paper](https://ieeexplore.ieee.org/document/10046057)
+- Efficient tensor core-based GPU kernels for structured sparsity under reduced precision (SC'21) [link to paper](https://dl.acm.org/doi/10.1145/3458817.3476182)
+- Sparse GPU kernels for deep learning (SC'20) [link to paper](https://ieeexplore.ieee.org/document/9355309)
+
+### Sparse systems
+- HighLight: Efficient and Flexible DNN Acceleration with Hierarchical Structured Sparsity (MICRO'23) [link to paper](https://arxiv.org/abs/2305.12718)
+- SparseTIR: Composable Abstractions for Sparse Compilation in Deep Learning (ASPLOS'23) [link to paper](https://dl.acm.org/doi/10.1145/3582016.3582047)
+- Deja Vu: Contextual Sparsity for Efficient LLMs at Inference Time (ICML'23) [link to paper](https://proceedings.mlr.press/v202/liu23am.html)
+- Inducing and Exploiting Activation Sparsity for Fast Inference on Deep Neural Networks (ICML'20) [link to paper](http://proceedings.mlr.press/v119/kurtz20a.html)
+- The tensor algebra compiler (OOPSLA'17) [link to paper](https://dl.acm.org/doi/10.1145/3133901)
 
 ## Survyes
 - A Survey of Large Language Models (arXiv'23) [link to paper](https://arxiv.org/abs/2303.18223)
 - Challenges and Applications of Large Language Models (arXiv'23)[link to paper](https://arxiv.org/abs/2307.10169)
 - FLM-101B: An Open LLM and How to Train It with $100K Budget (arXiv'23)[link to paper](https://arxiv.org/abs/2309.03852)
-
 
 ## Other Useful Resources
 
