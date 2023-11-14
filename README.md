@@ -139,6 +139,7 @@ This folk adds the following topics:
 ## Sparse LLM
 ### Pruning algorithms
 - SparseGPT: Massive Language Models Can be Accurately Pruned in One-Shot (ICML'23) [link to paper](https://proceedings.mlr.press/v202/frantar23a.html)
+- Uniform Sparsity in Deep Neural NEtworks (MLsys'23) [link to paper](https://proceedings.mlsys.org/paper_files/paper/2023/file/1f8053a67ec8e0b57455713cefdd8218-Paper-mlsys2023.pdf)
 - The Optimal BERT Surgeon: Scalable and Accurate Second-Order Pruning for Large Language Models (EMNLP'22) [link to paper](https://aclanthology.org/2022.emnlp-main.279/)
 - Accelerated Sparse Neural Training: A Provable and Efficient Method to Find N: M Transposable Masks (NeurIPS' 2021) [https://proceedings.neurips.cc/paper/2021/hash/b0490b85e92b64dbb5db76bf8fca6a82-Abstract.html]
 
@@ -146,6 +147,7 @@ This folk adds the following topics:
 - Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity (arXiv'23) [link to paper](https://arxiv.org/abs/2309.10285)
 - VENOM: A Vectorized N: M Format for Unleashing the Power of Sparse Tensor Cores (SC'23) [link to paper](https://arxiv.org/abs/2310.02065)
 - An Efficient Sparse Inference Software Accelerator for Transformer-based Language Models on CPUs. (arXiv'23) [link to paper](https://arxiv.org/abs/2306.16601)
+- Dense dynamic blocks: optimizing SpMM for processors with vector and matrix units using machine learning techniques (ICS'22) [link to paper](https://dl.acm.org/doi/10.1145/3524059.3532369)
 - Probing the Efficacy of Hardware-Aware Weight Pruning to Optimize the SpMM Routine on Ampere GPUs (PACT'22) [link to paper](https://dl.acm.org/doi/10.1145/3559009.3569691)
 - Efficient Quantized Sparse Matrix Operations on Tensor Cores (SC'22) [link to paper](https://ieeexplore.ieee.org/document/10046057)
 - Efficient tensor core-based GPU kernels for structured sparsity under reduced precision (SC'21) [link to paper](https://dl.acm.org/doi/10.1145/3458817.3476182)
@@ -153,6 +155,8 @@ This folk adds the following topics:
 
 ### Sparse systems
 - HighLight: Efficient and Flexible DNN Acceleration with Hierarchical Structured Sparsity (MICRO'23) [link to paper](https://arxiv.org/abs/2305.12718)
+- PockEngine: Sparse and Efficient Fine-tuning in a Pocket (MICRO'23) [link to paper](https://arxiv.org/abs/2310.17752)
+- SparseProp: Efficient Sparse Backpropagation for Faster Training of Neural Networks at the Edge (ICML'23) [link to paper](https://proceedings.mlr.press/v202/nikdan23a.html)
 - SparseTIR: Composable Abstractions for Sparse Compilation in Deep Learning (ASPLOS'23) [link to paper](https://dl.acm.org/doi/10.1145/3582016.3582047)
 - Deja Vu: Contextual Sparsity for Efficient LLMs at Inference Time (ICML'23) [link to paper](https://proceedings.mlr.press/v202/liu23am.html)
 - Inducing and Exploiting Activation Sparsity for Fast Inference on Deep Neural Networks (ICML'20) [link to paper](http://proceedings.mlr.press/v119/kurtz20a.html)
