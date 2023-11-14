@@ -2,7 +2,7 @@
 
 This is a list of (non-comprehensive) LLM system papers maintained by [ALCHEM Lab](https://alchem.cs.purdue.edu/index.html). Welcome to create a pull requst or an issue if we have missed any interesting papers!
 
-This folk adds the following topics:
+This fork adds the following topics:
 - [x] Sparse LLM algorithms, kernels, and systems
 
 ## Algorithm-System Co-Design
